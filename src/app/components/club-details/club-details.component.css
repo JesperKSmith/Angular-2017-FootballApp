@@ -1,0 +1,15 @@
+.details-container {
+    display: flex;    
+    width: 30vw;
+    height: 50vh;
+    background-color: #102e80;
+    margin-bottom: 10vh;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding: 1em;    
+}
+
+.details-container button {
+    align-self: flex-end;
+}
+

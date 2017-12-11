@@ -1,0 +1,11 @@
+<div  class="details-container">
+  <div class="details-data" *ngIf="club">
+    <h2>{{ club.name | uppercase }}</h2>
+    <div><span>id: </span>{{club.id}}</div>
+    <div>
+      <label>name:
+      </label>
+    </div>  
+  </div>    
+  <button mat-raised-button routerLink="/superligaen">Back</button>  
+</div>
